@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: nacos-client-demo
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: localhost:8848
+        namespace: public
+        ip:
+      config:
+        context-path: /nacos
+server:
+  port: 8080
